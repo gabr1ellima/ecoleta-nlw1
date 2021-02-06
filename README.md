@@ -4,7 +4,7 @@ O Ecoleta é um site de criação e buscagem de pontos de coletas de resíduos p
 
 A escolha desse tema foi devido ao projeto ser criado durante a semana do meio ambiente.
 
-![landing-page](https://github.com/gabr1ellima/ecoleta-nlw1/src/github/ecoleta.png)
+![landing-page](https://github.com/gabr1ellima/ecoleta-nlw1/blob/main/src/github/ecoleta.png)
 
 ## Tecnologias usadas 👨‍💻
 
