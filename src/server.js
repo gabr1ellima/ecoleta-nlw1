@@ -88,7 +88,7 @@ server.get("/search", (req, res) => {
     }
 
     // pegar os dados do banco de dados
-    db.all(`SELECT * FROM places WHERE city LIKE = '%${search}%'`, function(err, rows) {
+    db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function(err, rows) {
         if(err) {
             return console.log(err)
         }
@@ -99,7 +99,7 @@ server.get("/search", (req, res) => {
         console.log(rows)
 
         // mostrar a página html com os dados do banco de dados
-        return res.render("search-results.html", { places: rows, total: total })
+        return res.render("search-results.html", { places: rows, total })
     })
 })
 
